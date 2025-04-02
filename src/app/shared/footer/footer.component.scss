@@ -1,6 +1,6 @@
 .footer {
   background: linear-gradient(90deg, #e0ecff 0%, #f5faff 100%);
-  padding: 2rem;
+  padding: 2rem 1rem;
   margin-top: auto;
   border-top: 1px solid #ddd;
   text-align: center;
@@ -53,6 +53,10 @@
       &:hover {
         transform: scale(1.08);
         background-color: #f0f8ff;
+      }
+
+      a {
+        margin: 0.5rem;
       }
     }
   }

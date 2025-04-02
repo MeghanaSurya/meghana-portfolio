@@ -1,12 +1,17 @@
 <header class="navbar">
   <div class="navbar-container">
-    <a routerLink="/" class="logo">Surya Meghana Chochupatla</a>
-    <nav class="nav-links">
-      <a routerLink="/">Home</a>
-      <a routerLink="/about">About</a>
-      <a routerLink="/projects">Projects</a>
-      <a routerLink="/experience">Experience</a>
-      <a routerLink="/contact">Contact</a>
+    <a class="logo" (click)="navigateHome()">Surya Meghana Chochupatla</a>
+
+    <!-- Burger icon -->
+    <div class="burger" (click)="toggleMenu()">☰</div>
+
+    <!-- Nav links -->
+    <nav class="nav-links" [class.open]="isMenuOpen">
+      <a routerLink="/" (click)="closeMenu()">Home</a>
+      <a routerLink="/about" (click)="closeMenu()">About</a>
+      <a routerLink="/projects" (click)="closeMenu()">Projects</a>
+      <a routerLink="/experience" (click)="closeMenu()">Experience</a>
+      <a routerLink="/contact" (click)="closeMenu()">Contact</a>
     </nav>
   </div>
 </header>
