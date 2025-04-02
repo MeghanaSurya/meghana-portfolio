@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://MeghanaSurya.github.io/meghana-portfolio/',
+  baseHref: '/meghana-portfolio/',
   locale: undefined,
   routes: [
   {
@@ -28,13 +28,13 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 24745, hash: '6ab224ca1f10a4c8e0208b806b0a8109237557b4867f71e999c560adbe6dbb12', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 17187, hash: '805407ac84a969718d355b96c21afbe37a2e3b1c9b3d0d08d513609016ad75e2', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 33613, hash: '02957c0126e8f9f072350d325116ccc80471365f21ceaf242b31b50857ef7fe7', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'about/index.html': {size: 33886, hash: '631ea8f0a71fcfd33d04f7e70940f9edabc608bcccb201f3b2a04b9cbdab396a', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
-    'experience/index.html': {size: 39322, hash: 'bc0b8308ea5beb4e8fef3e4da29e8eb93df8cd546d923074a139870f05f83875', text: () => import('./assets-chunks/experience_index_html.mjs').then(m => m.default)},
-    'projects/index.html': {size: 37492, hash: '8a6fac0a78be39ced118e42e4bd92347569ba0b641695bcbb0d806c008c83b59', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
-    'contact/index.html': {size: 32441, hash: '0a1a13ba789646cfdf28ef8cbb589b6cfb721d9f647b254069cc212ed752c5fe', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 24715, hash: '54a7cdeb5213376750d7579ad69a3cc5785ee3bc197929f305d403a0a0326da9', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 17157, hash: '19437ea486992bbc23dc23e567a3f9f99bff727a2fb40e2871159d0c2adb0408', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 33373, hash: '59db4c389cad255d4bfe0a2f4c1b46ed2f5417f6ea0d35114f7a7a4e12e2b257', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'projects/index.html': {size: 37282, hash: 'ae2c5992e7f6d45b47681abbe92d8b0195ac4adebbd8194a2101a015ba329df3', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
+    'experience/index.html': {size: 39112, hash: 'f2f865bd4c78da3c0069be1b9a5f6f937540c4e67d47099e8d507ae17c46bfa1', text: () => import('./assets-chunks/experience_index_html.mjs').then(m => m.default)},
+    'about/index.html': {size: 33676, hash: 'b236f2dd195b939a34949f668d52d7bee25f28364b9b688d6dd4fb7ae0de6a57', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
+    'contact/index.html': {size: 32231, hash: '31ddd22af5e9515a2e9dd1e6fea4f0ff0300b7fe6f3972057fe12670e02e5a93', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
     'styles-LCZWOBSN.css': {size: 80855, hash: '8097FqxHQc8', text: () => import('./assets-chunks/styles-LCZWOBSN_css.mjs').then(m => m.default)}
   },
 };

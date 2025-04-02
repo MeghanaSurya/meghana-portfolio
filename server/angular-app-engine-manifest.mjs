@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://MeghanaSurya.github.io/meghana-portfolio',
+  basePath: '/meghana-portfolio',
   supportedLocales: {
   "en-US": ""
 },
