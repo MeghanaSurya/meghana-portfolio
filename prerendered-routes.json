@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/meghana-portfolio": {},
+    "/meghana-portfolio/about": {},
+    "/meghana-portfolio/contact": {},
+    "/meghana-portfolio/experience": {},
+    "/meghana-portfolio/projects": {}
+  }
+}
