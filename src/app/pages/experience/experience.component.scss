@@ -1,0 +1,128 @@
+.experience-section {
+  background: #f9f9f9;
+  padding: 4rem 2rem;
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .accomplishments {
+    margin-top: 1.5rem;
+
+    h4 {
+      font-size: 1.2rem;
+      color: #2c3e50;
+      margin-bottom: 0.8rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+
+      li {
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+
+        strong {
+          color: #3498db;
+        }
+      }
+    }
+  }
+
+
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 3rem;
+  }
+
+  .job {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+
+    h3 {
+      font-size: 1.6rem;
+      color: #34495e;
+      margin-bottom: 0.2rem;
+    }
+
+    .job-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+      color: #7f8c8d;
+      margin-bottom: 1rem;
+
+      .company {
+        font-weight: 500;
+      }
+    }
+
+    p {
+      font-size: 1.05rem;
+      margin-bottom: 1rem;
+      color: #2d3436;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+
+      li {
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+        color: #444;
+      }
+
+      li strong {
+        color: #3498db;
+      }
+    }
+
+    .tech {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+
+      span {
+        background: #ecf0f1;
+        padding: 0.4rem 0.75rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #2c3e50;
+      }
+    }
+  }
+}
+
+.accomplishments {
+  margin-top: 1.5rem;
+
+  h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 0.5rem;
+
+      strong {
+        color: #3498db;
+      }
+    }
+  }
+}

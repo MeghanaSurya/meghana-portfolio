@@ -1,0 +1,46 @@
+.about-section {
+  background: #f9f9f9;
+  padding: 4rem 2rem;
+
+  .container {
+    max-width: 960px;
+    margin: auto;
+    color: #333;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2c3e50;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #34495e;
+  }
+
+  ul {
+    padding-left: 1.5rem;
+
+    li {
+      line-height: 1.8;
+    }
+  }
+
+  .highlight {
+    background: #fff;
+    padding: 1rem;
+    border-left: 5px solid #3498db;
+    margin-top: 1rem;
+  }
+}
